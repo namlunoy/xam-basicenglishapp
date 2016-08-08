@@ -1,6 +1,12 @@
 ﻿<Properties StartupConfiguration="{50CA804E-81A4-400B-89BA-9A6F86843E01}|Default">
   <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3B4693CE-8A64-4008-A9DD-D44F8729F698" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicEnglishTest/Models/EAnswer.cs">
+    <Files>
+      <File FileName="BasicEnglishTest/Models/ELesson.cs" Line="6" Column="9" />
+      <File FileName="BasicEnglishTest/Models/EQuestion.cs" Line="1" Column="1" />
+      <File FileName="BasicEnglishTest/Models/EAnswer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
