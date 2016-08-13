@@ -1,6 +1,6 @@
-# Version: 9.10.0.38 (cycle8: 03febb9)
-# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/9.10.0.38/lib/mtouch/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/9.10.0.38/lib/mtouch/mtouch.exe \
+# Version: 9.10.0.51 (cycle8: 812051e)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/9.10.0.51/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.10.0.51/lib/mtouch/mtouch.exe \
 	--cache \
 	/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \

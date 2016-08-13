@@ -17,8 +17,16 @@ namespace BasicEnglishTest {
     public partial class BasicEnglishTestPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btTheory;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btPractice;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(BasicEnglishTestPage));
+            btTheory = this.FindByName <global::Xamarin.Forms.Button>("btTheory");
+            btPractice = this.FindByName <global::Xamarin.Forms.Button>("btPractice");
         }
     }
 }
