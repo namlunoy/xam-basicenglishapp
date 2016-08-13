@@ -13,3 +13,6 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/BasicEnglishTest.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/BasicEnglishTest.dll.mdb
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/SQLitePCL.raw.dll
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/SQLitePCL.batteries.dll
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll

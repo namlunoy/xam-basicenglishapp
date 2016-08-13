@@ -12,3 +12,9 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.ListLesson.xaml
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.ListLesson.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.untitled.png
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/bin/Debug/SQLitePCL.raw.dll
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/bin/Debug/SQLitePCL.batteries.dll
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/bin/Debug/SQLite-net.dll
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLesson.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLesson.xaml.g.cs

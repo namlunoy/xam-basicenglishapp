@@ -1,9 +1,12 @@
-﻿using Xamarin.Forms;
+﻿using SQLite;
+using Xamarin.Forms;
 
 namespace BasicEnglishTest
 {
 	public partial class App : Application
 	{
+		public const string DBName = "data.db";
+		public static SQLiteConnection sqlConn;
 		public App()
 		{
 			InitializeComponent();
