@@ -8,6 +8,7 @@ namespace BasicEnglishTest
 {
 	public partial class App : Application
 	{
+		public const bool IsProVerson = true;
 		public const string DBName = "data.db";
 		private static SQLiteConnection _sqlConn;
 		public static SQLiteConnection SqlConn{
@@ -23,7 +24,7 @@ namespace BasicEnglishTest
 		{
 			_sqlConn = DependencyService.Get<IPlatform>().GetConnection(App.DBName);
 			InitializeComponent();
-			MainPage = new NavigationPage(new BasicEnglishTestPage());
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		public static IEnumerable<ELesson> GetLessons()

@@ -9,8 +9,8 @@
 				<ColumnDefinition Width="*" />
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
-			<Button x:Name="btTheory" Grid.Column="0" Clicked="OnClick" Text="Lý Thuyết" HorizontalOptions="Center" VerticalOptions="Center" />
-			<Button x:Name="btPractice" Grid.Column="1" Clicked="OnClick" Text="Kiểm Tra" HorizontalOptions="Center" VerticalOptions="Center" />
+			<Button Grid.Column="0" Clicked="OnClick" Text="Lý Thuyết" HorizontalOptions="Center" VerticalOptions="Center" />
+			<Button Grid.Column="1" Clicked="OnClick" Text="Kiểm Tra" HorizontalOptions="Center" VerticalOptions="Center" />
 		</Grid>
 	</ContentView>
 </ContentPage>

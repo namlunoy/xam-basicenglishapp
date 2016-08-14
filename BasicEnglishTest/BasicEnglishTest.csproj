@@ -29,9 +29,15 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="BasicEnglishTestPage.xaml" />
+    <EmbeddedResource Include="MainPage.xaml" />
     <EmbeddedResource Include="untitled.png" />
-    <EmbeddedResource Include="Views\ListLesson.xaml">
+    <EmbeddedResource Include="Views\ListLessonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LearnPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PracticePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -39,8 +45,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BasicEnglishTestPage.xaml.cs">
-      <DependentUpon>BasicEnglishTestPage.xaml</DependentUpon>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\ELesson.cs" />
@@ -49,8 +55,15 @@
     <Compile Include="Helpers\FileHelper.cs" />
     <Compile Include="Helpers\IPlatform.cs" />
     <Compile Include="Views\ListLesson.xaml.cs">
-      <DependentUpon>ListLesson.xaml</DependentUpon>
+      <DependentUpon>ListLessonPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\LearnPage.xaml.cs">
+      <DependentUpon>LearnPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PracticePage.xaml.cs">
+      <DependentUpon>PracticePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

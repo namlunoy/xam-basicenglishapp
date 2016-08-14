@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Lessons" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicEnglishTest.ListLessonPage">
+
+
+
+	<ContentView>
+		<ListView x:Name="lvLesson" ItemSelected="Handle_ItemSelected" >
+			<ListView.ItemTemplate>
+				<DataTemplate>
+
+					<TextCell Text="{Binding Id, StringFormat='Bài {0}'}" Detail="{Binding Title}" />
+					
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentView>
+</ContentPage>

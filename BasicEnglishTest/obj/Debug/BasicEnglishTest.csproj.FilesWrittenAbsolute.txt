@@ -18,3 +18,13 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/bin/Debug/SQLite-net.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLesson.xaml
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLesson.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLessonPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.ListLessonPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.MainPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.MainPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.TheoryPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.PracticePage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.TheoryPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.PracticePage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.LearnPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.LearnPage.xaml.g.cs
