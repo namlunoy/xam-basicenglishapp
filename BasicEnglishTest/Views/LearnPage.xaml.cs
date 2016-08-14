@@ -7,10 +7,12 @@ namespace BasicEnglishTest
 {
 	public partial class LearnPage : ContentPage
 	{
-		public LearnPage()
+		public ELesson Lesson{get;set;}
+		public LearnPage(ELesson lesson)
 		{
 			InitializeComponent();
-			Title = ListLessonPage.selectedLesson.Title;
+			this.Lesson = lesson;
+			this.BindingContext = Lesson;
 
 			HtmlWebViewSource htmlSource = new HtmlWebViewSource();
 			htmlSource.Html = ListLessonPage.selectedLesson.Content;
@@ -19,7 +21,7 @@ namespace BasicEnglishTest
 
 		async void Handle_Clicked(object sender, System.EventArgs e)
 		{
-			await Navigation.PushAsync(new PracticePage());
+			await Navigation.PushAsync(new PracticePage(this.Lesson));
 		}
 	}
 }

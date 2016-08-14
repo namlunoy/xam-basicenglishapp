@@ -29,10 +29,10 @@ namespace BasicEnglishTest
 			Debug.WriteLine(">> " + selectedLesson.Title);
 			if (MainPage.UserOption == UserOptions.LEARN)
 			{
-				await Navigation.PushAsync(new LearnPage());
+				await Navigation.PushAsync(new LearnPage(selectedLesson));
 			}
 			else {
-				await Navigation.PushAsync(new PracticePage());
+				await Navigation.PushAsync(new PracticePage(selectedLesson));
 			}
 		}
 	}

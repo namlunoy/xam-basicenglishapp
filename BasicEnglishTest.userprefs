@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{50CA804E-81A4-400B-89BA-9A6F86843E01}|Default">
-  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7e1865bb7ec7aba71148464587659c9950e91179" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3B4693CE-8A64-4008-A9DD-D44F8729F698" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicEnglishTest/Views/QuestionView.xaml.cs">
     <Files>
-      <File FileName="BasicEnglishTest/Views/ListLesson.xaml.cs" Line="31" Column="5" />
-      <File FileName="BasicEnglishTest/Views/LearnPage.xaml.cs" Line="20" Column="9" />
-      <File FileName="BasicEnglishTest/Views/PracticePage.xaml.cs" Line="15" Column="2" />
-      <File FileName="BasicEnglishTest/Helpers/UserOptions.cs" Line="6" Column="18" />
-      <File FileName="BasicEnglishTest/MainPage.xaml.cs" Line="22" Column="87" />
-      <File FileName="BasicEnglishTest/Models/EAnswer.cs" Line="22" Column="23" />
-      <File FileName="BasicEnglishTest/Models/ELesson.cs" Line="14" Column="22" />
+      <File FileName="BasicEnglishTest/Views/QuestionView.xaml.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

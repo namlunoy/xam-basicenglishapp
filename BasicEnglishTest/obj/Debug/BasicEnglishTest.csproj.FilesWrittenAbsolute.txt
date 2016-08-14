@@ -28,3 +28,7 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.PracticePage.xaml.g.cs
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.LearnPage.xaml
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.LearnPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.QuestionView.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.AnswerView.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.QuestionView.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.AnswerView.xaml.g.cs

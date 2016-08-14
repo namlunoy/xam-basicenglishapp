@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView BackgroundColor="Red" 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="BasicEnglishTest.AnswerView"
+		HorizontalOptions="Start" VerticalOptions="Start"
+		>
+	
+	<ContentView.Content>
+		<Label Text="{Binding Content}" BackgroundColor="Yellow" HorizontalOptions="Center" VerticalOptions="Center" />
+	</ContentView.Content>
+	
+</ContentView>

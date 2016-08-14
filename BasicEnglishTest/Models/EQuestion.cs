@@ -11,13 +11,15 @@ namespace BasicEnglishTest
 		public string Id { get; set; }
 
 		[Column("text")]
-		public string Title { get; set; }
+		public string Content { get; set; }
 
 		[Column("explan")]
 		public string Explanation { get; set; }
 
 		[Column("lesson_id")]
 		public int LessonId{get;set;}
+
+		public int Index{get;set;}
 
 		public List<EAnswer> Answers { get; set; }
 		public EQuestion() { }
