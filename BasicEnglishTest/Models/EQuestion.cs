@@ -4,16 +4,20 @@ using SQLite;
 
 namespace BasicEnglishTest
 {
+	[Table("Question")]
 	public class EQuestion
 	{
 		[PrimaryKey, Column("id")]
-		public String Id { get; set; }
+		public string Id { get; set; }
 
 		[Column("text")]
-		public String Title { get; set; }
+		public string Title { get; set; }
 
 		[Column("explan")]
-		public String Explanation { get; set; }
+		public string Explanation { get; set; }
+
+		[Column("lesson_id")]
+		public int LessonId{get;set;}
 
 		public List<EAnswer> Answers { get; set; }
 		public EQuestion() { }

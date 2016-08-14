@@ -4,6 +4,7 @@ using SQLite;
 
 namespace BasicEnglishTest
 {
+	[Table("Lesson")]
 	public class ELesson
 	{
 		[PrimaryKey, Column("id")]

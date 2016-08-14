@@ -12,11 +12,12 @@ namespace BasicEnglishTest
 
 		public BasicEnglishTestPage()
 		{
+			Debug.WriteLine("BasicEnglishTestPage");
 			InitializeComponent();
 
-			App.sqlConn = DependencyService.Get<IPlatform>().GetConnection(App.DBName);
 
-			var q = App.sqlConn.Query<ELesson>("select * from Lesson");
+			//var q = App.SqlConn.Query<ELesson>("select * from Lesson");
+			var q = App.SqlConn.Table<ELesson>();
 			foreach (var item in q)
 			{
 				Debug.WriteLine(item.Title);
