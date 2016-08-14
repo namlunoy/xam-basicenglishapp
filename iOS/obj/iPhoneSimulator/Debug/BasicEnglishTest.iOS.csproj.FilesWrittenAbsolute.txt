@@ -17,3 +17,4 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/SQLitePCL.batteries.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/obj/iPhoneSimulator/Debug/optimized/hint.png
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/iOS/obj/iPhoneSimulator/Debug/optimized/conghoang640x960.png
