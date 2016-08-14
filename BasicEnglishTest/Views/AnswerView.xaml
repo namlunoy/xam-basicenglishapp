@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentView BackgroundColor="Red" 
-		xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="BasicEnglishTest.AnswerView"
-		HorizontalOptions="Start" VerticalOptions="Start"
-		>
-	
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicEnglishTest.AnswerView"  VerticalOptions="Start">
 	<ContentView.Content>
-		<Label Text="{Binding Content}" BackgroundColor="Yellow" HorizontalOptions="Center" VerticalOptions="Center" />
+		<Grid>
+			<Button 
+					x:Name="button"
+				Clicked="Handle_Clicked" 
+				Text="{Binding Content}" 
+				HorizontalOptions="FillAndExpand" 
+				VerticalOptions="Center" 
+				BorderWidth="1"
+				/>
+		</Grid>
 	</ContentView.Content>
-	
 </ContentView>

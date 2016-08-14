@@ -25,14 +25,20 @@ namespace BasicEnglishTest
 
 		async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
 		{
-			selectedLesson = e.SelectedItem as ELesson;
-			Debug.WriteLine(">> " + selectedLesson.Title);
-			if (MainPage.UserOption == UserOptions.LEARN)
+			if (e != null && e.SelectedItem != null)
 			{
-				await Navigation.PushAsync(new LearnPage(selectedLesson));
-			}
-			else {
-				await Navigation.PushAsync(new PracticePage(selectedLesson));
+				selectedLesson = e.SelectedItem as ELesson;
+				if (selectedLesson != null)
+				{
+					if (MainPage.UserOption == UserOptions.LEARN)
+					{
+						await Navigation.PushAsync(new LearnPage(selectedLesson));
+					}
+					else {
+						await Navigation.PushAsync(new PracticePage(selectedLesson));
+					}
+				}
+				lvLesson.SelectedItem = null;
 			}
 		}
 	}

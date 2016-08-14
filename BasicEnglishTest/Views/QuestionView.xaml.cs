@@ -6,7 +6,9 @@ namespace BasicEnglishTest
 {
 	public partial class QuestionView : ContentPage
 	{
+		public event Action<EAnswer> OnAnswerSelected;
 		public EQuestion Question{get;set;}
+
 		public QuestionView()
 		{
 			InitializeComponent();
@@ -19,8 +21,20 @@ namespace BasicEnglishTest
 
 			foreach (var a in this.Question.Answers)
 			{
-				lvAnswers.Children.Add(new AnswerView(a));
+				var view = new AnswerView(a);
+				lvAnswers.Children.Add(view);
+				view.OnAnswerSelected += View_OnAnswerSelected;
 			}
+		}
+
+		void View_OnAnswerSelected(BasicEnglishTest.EAnswer obj)
+		{
+			foreach (var item in lvAnswers.Children)
+			{
+				item.IsEnabled = false;
+			}
+			if (OnAnswerSelected != null)
+				OnAnswerSelected(obj);
 		}
 	}
 }
