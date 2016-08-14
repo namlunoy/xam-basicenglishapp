@@ -62,6 +62,9 @@ namespace BasicEnglishTest
 			}
 			else {
 				// Finish
+				this.Lesson.Number = Counter;
+				App.UpdateLesson(this.Lesson);
+
 				await DisplayAlert("Finish!", string.Format("Your result: {0}/{1}",Counter,this.Questions.Count), "OK");
 				await Navigation.PopAsync();
 			}

@@ -9,8 +9,8 @@
 				</Grid.RowDefinitions>
 				<!-- Question section -->
 				<StackLayout HorizontalOptions="Start" VerticalOptions="Start" Grid.Row="0">
-					<Label x:Name="numQuest" Text="{Binding Index, StringFormat='Question {0}:'}" FontAttributes="Bold" />
-					<BoxView HeightRequest="0.5" BindingContext="{x:Reference numQuest}" WidthRequest="{Binding Width}" BackgroundColor="Black" />
+					<Label  Text="{Binding Index, StringFormat='Question {0}:'}" FontAttributes="Bold" />
+					<BoxView HeightRequest="0.5"  BackgroundColor="Black" />
 					<ScrollView>
 						<Label Text="{Binding Content}" />
 					</ScrollView>

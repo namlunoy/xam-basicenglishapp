@@ -10,10 +10,6 @@ namespace BasicEnglishTest
 		public EQuestion Question{get;set;}
 	
 
-		public QuestionView()
-		{
-			InitializeComponent();
-		}
 		public QuestionView(EQuestion question)
 		{
 			InitializeComponent();

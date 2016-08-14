@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="Lessons" xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="BasicEnglishTest.ListLessonPage">
+<ContentPage Title="Lessons" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicEnglishTest.ListLessonPage">
 	<ContentView>
-		<ListView x:Name="lvLesson" ItemSelected="Handle_ItemSelected" >
+		<ListView x:Name="lvLesson" ItemSelected="Handle_ItemSelected">
+			
 			<ListView.ItemTemplate>
 				<DataTemplate>
-
-					<TextCell Text="{Binding Id, StringFormat='Bài {0}'}" Detail="{Binding Title}" />
-					
+					 <TextCell Text="{Binding Title2}" Detail="{Binding Title}" /> 
+					<!--<ViewCell>
+						<StackLayout Margin="10,0,0,0" HorizontalOptions="Start" VerticalOptions="Center">
+							<Label Text="{Binding Id, StringFormat='Bài {0}'}" FontAttributes="Bold" VerticalOptions="Center" />
+							<Label Text="{Binding Title}" VerticalOptions="Center" LineBreakMode="TailTruncation" />
+							<BoxView HorizontalOptions="StartAndExpand" HeightRequest="10" />
+						</StackLayout>
+					</ViewCell>-->
 				</DataTemplate>
 			</ListView.ItemTemplate>
+			
 		</ListView>
 	</ContentView>
 </ContentPage>

@@ -11,6 +11,7 @@ namespace BasicEnglishTest
 		public const bool IsProVerson = true;
 		public const string DBName = "data.db";
 		private static SQLiteConnection _sqlConn;
+		private static object _locker = new object();
 		public static SQLiteConnection SqlConn{
 			get{
 				if(_sqlConn == null)
@@ -29,17 +30,31 @@ namespace BasicEnglishTest
 
 		public static IEnumerable<ELesson> GetLessons()
 		{
-			return (from i in SqlConn.Table<ELesson>() select i).ToList();
+			lock(_locker)
+			{
+				return (from i in SqlConn.Table<ELesson>() select i).ToList();
+			}
 		}
 
 		public static IEnumerable<EQuestion> GetQuestion(int idLesson)
 		{
-			var questions = (from q in SqlConn.Table<EQuestion>() where q.LessonId == idLesson select q	 ).ToList();
-			foreach (EQuestion q in questions)
+			lock(_locker)
 			{
-				q.Answers = (from a in SqlConn.Table<EAnswer>() where a.QuestionId.Equals(q.Id) select a).ToList();
+				var questions = (from q in SqlConn.Table<EQuestion>() where q.LessonId == idLesson select q).ToList();
+				foreach (EQuestion q in questions)
+				{
+					q.Answers = (from a in SqlConn.Table<EAnswer>() where a.QuestionId.Equals(q.Id) select a).ToList();
+				}
+				return questions;
 			}
-			return questions;
+		}
+
+		public static void UpdateLesson(ELesson lesson)
+		{
+			lock(_locker)
+			{
+				SqlConn.Update(lesson);
+			}
 		}
 
 		protected override void OnStart()
