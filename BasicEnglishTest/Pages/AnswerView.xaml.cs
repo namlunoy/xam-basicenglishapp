@@ -20,14 +20,19 @@ namespace BasicEnglishTest
 			this.BindingContext = this.Answer;
 		}
 
-		async void Handle_Clicked(object sender, System.EventArgs e)
+		void Handle_Clicked(object sender, System.EventArgs e)
 		{
 			Debug.WriteLine("xxx");
 			button.BackgroundColor = this.Answer.IsCorrect ? TRUE_COLOR : WRONG_COLOR;
 
-			await Task.Delay(300);
+
 			if (OnAnswerSelected != null)
 				OnAnswerSelected(this.Answer);
+		}
+
+		public void Disable()
+		{
+			button.IsEnabled = false;
 		}
 	}
 }

@@ -30,20 +30,19 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="MainPage.xaml" />
-    <EmbeddedResource Include="untitled.png" />
-    <EmbeddedResource Include="Views\ListLessonPage.xaml">
+    <EmbeddedResource Include="Pages\ListLessonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\LearnPage.xaml">
+    <EmbeddedResource Include="Pages\LearnPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\PracticePage.xaml">
+    <EmbeddedResource Include="Pages\PracticePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\QuestionView.xaml">
+    <EmbeddedResource Include="Pages\QuestionView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\AnswerView.xaml">
+    <EmbeddedResource Include="Pages\AnswerView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -60,20 +59,20 @@
     <Compile Include="Models\EAnswer.cs" />
     <Compile Include="Helpers\FileHelper.cs" />
     <Compile Include="Helpers\IPlatform.cs" />
-    <Compile Include="Views\ListLesson.xaml.cs">
+    <Compile Include="Pages\ListLesson.xaml.cs">
       <DependentUpon>ListLessonPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\LearnPage.xaml.cs">
+    <Compile Include="Pages\LearnPage.xaml.cs">
       <DependentUpon>LearnPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\PracticePage.xaml.cs">
+    <Compile Include="Pages\PracticePage.xaml.cs">
       <DependentUpon>PracticePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\UserOptions.cs" />
-    <Compile Include="Views\QuestionView.xaml.cs">
+    <Compile Include="Pages\QuestionView.xaml.cs">
       <DependentUpon>QuestionView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\AnswerView.xaml.cs">
+    <Compile Include="Pages\AnswerView.xaml.cs">
       <DependentUpon>AnswerView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -104,7 +103,7 @@
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Views\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

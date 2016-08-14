@@ -32,3 +32,13 @@
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.AnswerView.xaml
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.QuestionView.xaml.g.cs
 /Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Views.AnswerView.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.ListLessonPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.LearnPage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.PracticePage.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.QuestionView.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.AnswerView.xaml
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.ListLessonPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.LearnPage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.PracticePage.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.QuestionView.xaml.g.cs
+/Users/hoangcong/_Projects/Xamarin/Xam_BasicEnglishApp/xam-basicenglishapp/BasicEnglishTest/obj/Debug/BasicEnglishTest.Pages.AnswerView.xaml.g.cs

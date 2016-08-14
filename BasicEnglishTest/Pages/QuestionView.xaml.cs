@@ -8,6 +8,7 @@ namespace BasicEnglishTest
 	{
 		public event Action<EAnswer> OnAnswerSelected;
 		public EQuestion Question{get;set;}
+	
 
 		public QuestionView()
 		{
@@ -29,12 +30,23 @@ namespace BasicEnglishTest
 
 		void View_OnAnswerSelected(BasicEnglishTest.EAnswer obj)
 		{
-			foreach (var item in lvAnswers.Children)
+			foreach (AnswerView item in lvAnswers.Children)
 			{
-				item.IsEnabled = false;
+				item.Disable();
 			}
 			if (OnAnswerSelected != null)
 				OnAnswerSelected(obj);
+		}
+
+		void Handle_ClickedHint(object sender, System.EventArgs e)
+		{
+			if (App.IsProVerson)
+			{
+				DisplayAlert("Hint", this.Question.Explanation, "OK");
+			}
+			else {
+				// MISS
+			}
 		}
 	}
 }

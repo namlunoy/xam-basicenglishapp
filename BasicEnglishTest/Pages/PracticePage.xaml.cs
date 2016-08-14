@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace BasicEnglishTest
@@ -10,6 +11,8 @@ namespace BasicEnglishTest
 	{
 		public ELesson Lesson{get;set;}
 		public ObservableCollection<EQuestion> Questions;
+		private int Counter = 0;
+
 		public PracticePage(ELesson lesson)
 		{
 			InitializeComponent();
@@ -33,16 +36,34 @@ namespace BasicEnglishTest
 
 		}
 
-		void View_OnAnswerSelected(BasicEnglishTest.EAnswer obj)
+		async void View_OnAnswerSelected(BasicEnglishTest.EAnswer selectedAnswer)
 		{
 			int currentIndex = this.Children.IndexOf(this.CurrentPage);
 			if (currentIndex + 1 < this.Children.Count)
 			{
 				// Next Question
-				this.CurrentPage = this.Children[currentIndex + 1];
+				if (selectedAnswer.IsCorrect)
+				{
+					Counter++;
+					await Task.Delay(300);
+					this.CurrentPage = this.Children[currentIndex + 1];
+				}
+				else {
+					// Hint
+					if (App.IsProVerson)
+					{
+						await DisplayAlert("Wrong!", selectedAnswer.Hint, "OK");
+						this.CurrentPage = this.Children[currentIndex + 1];
+					}
+					else {
+						// MISS
+					}
+				}
 			}
 			else {
 				// Finish
+				await DisplayAlert("Finish!", string.Format("Your result: {0}/{1}",Counter,this.Questions.Count), "OK");
+				await Navigation.PopAsync();
 			}
 		}
 
@@ -50,18 +71,6 @@ namespace BasicEnglishTest
 		void Handle_CurrentPageChanged(object sender, System.EventArgs e)
 		{
 			Debug.WriteLine("Handle_CurrentPageChanged");
-			//if (isSelected)
-			//{
-			//	isSelected = false;
-			//}
-			//else {
-			//	int currentIndex = this.Children.IndexOf(this.CurrentPage);
-			//	if (currentIndex + 1 < this.Children.Count)
-			//	{
-			//		isSelected = true;
-			//		this.CurrentPage = this.Children[currentIndex + 1];
-			//	}
-			//}
 		}
 
 	

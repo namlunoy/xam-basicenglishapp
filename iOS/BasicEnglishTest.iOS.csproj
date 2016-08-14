@@ -137,6 +137,7 @@
     <Compile Include="Platform_IOS.cs" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\hint.png" />
     <BundleResource Include="Resources\data.db" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
