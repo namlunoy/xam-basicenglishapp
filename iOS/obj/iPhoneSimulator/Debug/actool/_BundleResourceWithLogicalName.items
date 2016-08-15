@@ -37,6 +37,14 @@
       <LogicalName>LaunchImage-700-568h@2x.png</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/bundle/LaunchImage-700-Portrait~ipad.png">
+      <LogicalName>LaunchImage-700-Portrait~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/bundle/LaunchImage-700-Portrait@2x~ipad.png">
+      <LogicalName>LaunchImage-700-Portrait@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/actool/bundle/LaunchImage@2x.png">
       <LogicalName>LaunchImage@2x.png</LogicalName>
       <Optimize>false</Optimize>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage Title="Basic English Grammar" 
-		xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		xmlns:local="clr-namespace:BasicEnglishTest" 
-		x:Class="BasicEnglishTest.MainPage">
+<ContentPage Title="Basic English Grammar" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BasicEnglishTest" x:Class="BasicEnglishTest.MainPage">
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" />
 	</ContentPage.Padding>
@@ -13,8 +9,22 @@
 				<ColumnDefinition Width="*" />
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
-			<Button Grid.Column="0" Clicked="OnClick" Text="Lý Thuyết" HorizontalOptions="Center" VerticalOptions="Center" />
-			<Button Grid.Column="1" Clicked="OnClick" Text="Kiểm Tra" HorizontalOptions="Center" VerticalOptions="Center" />
+			<Button Grid.Column="0" Clicked="OnClick" Text="Lý Thuyết" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20">
+				<Button.BackgroundColor>
+					<OnPlatform x:TypeArguments="Color" Android="{StaticResource AndroidBlue}" />
+				</Button.BackgroundColor>
+				<Button.TextColor>
+					<OnPlatform x:TypeArguments="Color" Android="White" />
+				</Button.TextColor>
+			</Button>
+			<Button Grid.Column="1" Clicked="OnClick" Text="Kiểm Tra" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20">
+				<Button.BackgroundColor>
+					<OnPlatform x:TypeArguments="Color" Android="{StaticResource AndroidBlue}" />
+				</Button.BackgroundColor>
+				<Button.TextColor>
+					<OnPlatform x:TypeArguments="Color" Android="White" />
+				</Button.TextColor>
+			</Button>
 		</Grid>
 	</ContentView>
 </ContentPage>

@@ -1,14 +1,20 @@
-﻿<Properties StartupConfiguration="{50CA804E-81A4-400B-89BA-9A6F86843E01}|Default">
-  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7E7D85DE-5630-462F-945D-6B56559C6755" />
+﻿<Properties StartupConfiguration="{9C668FE1-2EC0-4CF6-9065-9E15D7E9598A}|Default">
+  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.iOS PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="iOS/Info.plist" />
+      <File FileName="Droid/MainActivity.cs" Line="13" Column="116" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="30" Column="12" />
+      <File FileName="BasicEnglishTest/BasicEnglishTest.csproj" Line="1" Column="1" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Droid/Resources/AboutResources.txt" Line="1" Column="1" />
+      <File FileName="Droid/SplashActivity.cs" Line="16" Column="13" />
+      <File FileName="BasicEnglishTest/App.xaml.cs" Line="27" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.BasicEnglishTest.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean)" />
 </Properties>

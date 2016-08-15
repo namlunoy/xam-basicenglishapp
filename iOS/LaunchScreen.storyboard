@@ -17,6 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="conghoang640x960.png" highlightedImage="conghoang640x960.png">
+                                <rect key="frame" x="220" y="187" width="160" height="240"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-4" y="6" width="317" height="555"/>
+                                </variation>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="1"/>
+                            </imageView>
+                        </subviews>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26,5 +35,10 @@
     </scenes>
     <resources>
         <image name="hint.png" width="128" height="128"/>
+        <image name="conghoang640x960.png" width="640" height="960"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedOrientationMetrics key="orientation"/>
+    </simulatedMetricsContainer>
 </document>

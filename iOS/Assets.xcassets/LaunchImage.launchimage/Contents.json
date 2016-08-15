@@ -60,6 +60,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "conghoang768x1024.png",
       "size": "768x1024",
       "scale": "1x",
       "idiom": "ipad"
@@ -68,6 +69,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "conghoang1536x2048.png",
       "size": "768x1024",
       "scale": "2x",
       "idiom": "ipad"

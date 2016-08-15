@@ -20,8 +20,8 @@
 				</StackLayout>
 			</Grid>
 			<Button BorderWidth="1" BorderRadius="5" HorizontalOptions="End" VerticalOptions="Start" HeightRequest="40" WidthRequest="40" Clicked="Handle_ClickedHint" Margin="5">
-				<Button.Image>
-					<FileImageSource>hint.png</FileImageSource>
+				<Button.Image HeightRequest="40" WidthRequest="40" >
+					<FileImageSource  >hint.png</FileImageSource>
 				</Button.Image>
 			</Button>
 		</Grid>

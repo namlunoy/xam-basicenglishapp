@@ -52,7 +52,14 @@ namespace BasicEnglishTest
 					// Hint
 					if (App.IsProVerson)
 					{
-						await DisplayAlert("Wrong!", selectedAnswer.Hint, "OK");
+						if (selectedAnswer.Hint.Trim().Length > 2)
+						{
+							await DisplayAlert("Wrong!", selectedAnswer.Hint, "OK");
+						}
+						else
+						{
+							await Task.Delay(300);
+						}
 						this.CurrentPage = this.Children[currentIndex + 1];
 					}
 					else {

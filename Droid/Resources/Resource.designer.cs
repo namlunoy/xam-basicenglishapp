@@ -2203,8 +2203,11 @@ namespace BasicEnglishTest.Droid
 			// aapt resource value: 0x7f0200a1
 			public const int mr_ic_play_light = 2130837665;
 			
+			// aapt resource value: 0x7f0200a3
+			public const int notification_template_icon_bg = 2130837667;
+			
 			// aapt resource value: 0x7f0200a2
-			public const int notification_template_icon_bg = 2130837666;
+			public const int splash = 2130837666;
 			
 			static Drawable()
 			{
@@ -3873,6 +3876,9 @@ namespace BasicEnglishTest.Droid
 			
 			// aapt resource value: 0x7f090003
 			public const int Theme_MediaRouter_LightControlPanel = 2131296259;
+			
+			// aapt resource value: 0x7f090175
+			public const int Theme_Splash = 2131296629;
 			
 			// aapt resource value: 0x7f090123
 			public const int ThemeOverlay_AppCompat = 2131296547;

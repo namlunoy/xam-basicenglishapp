@@ -130,6 +130,8 @@
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\conghoang1242x2208.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\conghoang640x960.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\conghoang640x1136.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\conghoang768x1024.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\conghoang1536x2048.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
